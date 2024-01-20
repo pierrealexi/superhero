@@ -6,8 +6,8 @@ import NextLink from 'next/link';
 
 export default function Home() {
   
-    const [casserole, setcasserole] = useState(false)
-    const handleClick = () => setcasserole(!casserole)
+    const [hide, sethide] = useState(false)
+    const handleClick = () => sethide(!hide)
   return (
     <ChakraProvider>
       <Flex
@@ -33,12 +33,12 @@ export default function Home() {
             <Input
               bg='#666666'
               pr='4.5rem'
-              type={casserole ? 'text' : 'password'}
+              type={hide ? 'text' : 'password'}
               placeholder='Enter password'
             />
             <InputRightElement width='4.5rem'>
               <Button h='1.75rem' size='sm' onClick={handleClick}>
-                {casserole ? 'Hide' : 'Show'}
+                {hide ? 'Hide' : 'Show'}
               </Button>
             </InputRightElement>
           </InputGroup>
