@@ -7,58 +7,56 @@ function Heros() {
   const heroesData = [
     {
       id: 1,
-      name: 'Héros 1',
+      name: 'SpiderMan',
       description:
-        'Ce héros est parfait pour les espaces tropicaux modernes, les espaces inspirés du baroque, les espaces aux tons terreux et pour les personnes qui aiment un design chic avec une touche de vintage.',
+        'Spider-Man, alias Peter Parker, est un super-héros Marvel doté de pouvoirs arachnéens. Évoluant à New York, il utilise sa toile et son agilité exceptionnelle pour combattre le crime. Son humour et son sens de la responsabilité en font un héros emblématique, prêt à affronter tous les défis pour défendre la justice',
       price: '$450',
       image:
-        'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Spiderman.JPG/2560px-Spiderman.JPG',
     },
     {
         id: 1,
-        name: 'Héros 1',
+        name: 'Batman',
         description:
-          'Ce héros est parfait pour les espaces tropicaux modernes, les espaces inspirés du baroque, les espaces aux tons terreux et pour les personnes qui aiment un design chic avec une touche de vintage.',
+          'Ce héros est parfait pour les espaces tropicaux modernes, les espaces inspirés du baroBatman, aussi connu sous le nom de Bruce Wayne, est un justicier de Gotham City. Dépourvu de pouvoirs surhumains, il utilise son intelligence exceptionnelle, ses compétences en arts martiaux et une panoplie de gadgets high-tech pour lutter contre le crime.que, les espaces aux tons terreux et pour les personnes qui aiment un design chic avec une touche de vintage.',
         price: '$450',
         image:
-          'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+          'https://s.isanook.com/mv/0/ud/24/121917/121917-thumbnail.jpg?ip/crop/w670h402/q80/jpg',
       },
       {
         id: 1,
-        name: 'Héros 1',
+        name: 'Superman',
         description:
-          'Ce héros est parfait pour les espaces tropicaux modernes, les espaces inspirés du baroque, les espaces aux tons terreux et pour les personnes qui aiment un design chic avec une touche de vintage.',
+          `Superman, alias Clark Kent, est un extraterrestre doté de super-pouvoirs, dont une force surhumaine et la capacité de voler. En tant que défenseur de la vérité et de la justice, il incarne l'espoir et la puissance au service du bien.`,
         price: '$450',
         image:
-          'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+          'https://fr.web.img6.acsta.net/newsv7/21/02/26/18/51/4272278.jpg',
       },
       {
         id: 1,
-        name: 'Héros 1',
+        name: 'Iron Man',
         description:
-          'Ce héros est parfait pour les espaces tropicaux modernes, les espaces inspirés du baroque, les espaces aux tons terreux et pour les personnes qui aiment un design chic avec une touche de vintage.',
+          `Iron Man, ou Tony Stark, est un génie milliardaire et inventeur. Équipé d'une armure technologique de pointe, il combat le crime et les menaces mondiales. Son intelligence, son humour sarcastique et sa détermination en font un super-héros unique.`,
         price: '$450',
         image:
-          'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+          `https://static.printler.com/cache/4/e/f/2/f/9/4ef2f983834bdcf676c44dad74b16c0d7270c40f.jpg`  },
+      {
+        id: 1,
+        name: 'Hulk',
+        description:
+          `Hulk, le Dr Bruce Banner lorsqu'il se transforme, est un géant vert surpuissant doté d'une force colossale. Sa transformation est déclenchée par la colère, et il devient un agent de destruction massive au service du bien.`,
+        price: '$450',
+        image:
+          `https://www.gamereactor.fr/media/47/_4124713b.jpg`,
       },
       {
         id: 1,
-        name: 'Héros 1',
+        name: 'Captain America',
         description:
-          'Ce héros est parfait pour les espaces tropicaux modernes, les espaces inspirés du baroque, les espaces aux tons terreux et pour les personnes qui aiment un design chic avec une touche de vintage.',
+          `Captain America, alias Steve Rogers, est un super-soldat au service de l'Amérique. Grâce à un sérum expérimental, il possède une force physique et une agilité exceptionnelles. Armé de son bouclier indestructible, il incarne les valeurs de l'héroïsme et du patriotisme.`,
         price: '$450',
         image:
-          'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-      },
-      {
-        id: 1,
-        name: 'Héros 1',
-        description:
-          'Ce héros est parfait pour les espaces tropicaux modernes, les espaces inspirés du baroque, les espaces aux tons terreux et pour les personnes qui aiment un design chic avec une touche de vintage.',
-        price: '$450',
-        image:
-          'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-      },
+          `https://static.miraheze.org/fictionwiki/a/a3/Captain-america-bouclier-skin-arme-fortnite.jpg`      },
   ];
 
   const addToCart = (hero:any) => {
